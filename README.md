@@ -7,9 +7,9 @@
 ## Overview
 
 The purpose of this project was as below:
-  *load data from Amazon AWS S3 about product reviews. There were numerous datasets and I chose Electronic category.
-  *Create Database and its table through pgAdmin and PySpark.
-  *Extract one of tables to run some additional analysis about paid and unpaid reviews bias.
+  * load data from Amazon AWS S3 about product reviews. There were numerous datasets and I chose Electronic category.
+  * Create Database and its table through pgAdmin and PySpark.
+  * Extract one of tables to run some additional analysis about paid and unpaid reviews bias.
 
 ---
 
@@ -21,15 +21,15 @@ The results was as below.
 
 ![](Images/Image1.png)
 
-*How many Vine reviews and non-Vine reviews were there?
+* How many Vine reviews and non-Vine reviews were there?
 Vine (Paid) reviews: 1080
 Non-Vine (Unpaid) reviews: 49673
 
-*How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+* How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 Vine (Paid) reviews: 454
 Non-Vine (Unpaid) reviews: 23043
 
-*What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+* What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 Vine (Paid) reviews: 42.04%
 Non-Vine (Unpaid) reviews: 46.39%
 
@@ -48,19 +48,19 @@ However I think it seems a little bit odd. Let's look it another way in an addit
 in this analysis, I consider both 4 and 5-star as good reviews since many people might score 4 and be even biased.
 the results are as below:
 
-![](Images/Image2.png
+![](Images/Image2.png)
 
 Let's answer the questions again.
 
-*How many Vine reviews and non-Vine reviews were there?
+* How many Vine reviews and non-Vine reviews were there?
 Vine (Paid) reviews: 1080
 Non-Vine (Unpaid) reviews: 49673
 
-*How many Vine reviews were 4 and 5 stars? How many non-Vine reviews were 4 and 5 stars?
+* How many Vine reviews were 4 and 5 stars? How many non-Vine reviews were 4 and 5 stars?
 Vine (Paid) reviews: 825
 Non-Vine (Unpaid) reviews: 31781
 
-*What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+* What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 Vine (Paid) reviews: 76.39%
 Non-Vine (Unpaid) reviews: 63.98%
 
