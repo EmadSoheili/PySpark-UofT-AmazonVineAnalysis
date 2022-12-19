@@ -50,3 +50,20 @@ the results are as below:
 
 ![](Images/Image2.png
 
+Let's answer the questions again.
+
+*How many Vine reviews and non-Vine reviews were there?
+Vine (Paid) reviews: 1080
+Non-Vine (Unpaid) reviews: 49673
+
+*How many Vine reviews were 4 and 5 stars? How many non-Vine reviews were 4 and 5 stars?
+Vine (Paid) reviews: 825
+Non-Vine (Unpaid) reviews: 31781
+
+*What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+Vine (Paid) reviews: 76.39%
+Non-Vine (Unpaid) reviews: 63.98%
+
+As we can see here, considering 4 and 5 stars as good reviews, the percentage of these good reviews in paid reviews preced by 13%. It seems there is a positive bias, but not only for 5-star ratings, rather it is for 4 and 5-star ratings combined.
+
+It is worth mentioning that for examining the statistical significance of this difference, we can use hypothesis testing.
